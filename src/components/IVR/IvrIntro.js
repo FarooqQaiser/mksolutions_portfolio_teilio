@@ -1,5 +1,5 @@
 import React from "react";
-import Picture from "../../assets/Integration With CRM.png";
+import Picture from "../../assets/IVR.jpg";
 
 export default function IvrIntro() {
   return (
@@ -7,7 +7,7 @@ export default function IvrIntro() {
       <img
         src={Picture}
         alt="IVR"
-        className="hover:cursor-pointer w-full h-full"
+        className="hover:cursor-pointer w-4/6 h-5/6"
       />
     </>
   );

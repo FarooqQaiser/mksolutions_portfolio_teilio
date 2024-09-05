@@ -1,5 +1,5 @@
 import React from "react";
-import Picture from "../../assets/AIimage.jpeg";
+import Picture from "../../assets/AI Agent.png";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 
 export default function AiAgent({ handleBackButton }) {

@@ -14,7 +14,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange }) {
         console.error("Pagination Error!");
       }
       onPageChange(tempNumber);
-    }, 2500);
+    }, 5000);
     return () => clearInterval(interval);
   });
 

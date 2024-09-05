@@ -208,7 +208,7 @@ export default function HomeDescription({
                   <MdOutlineKeyboardArrowLeft />
                 </button>
               </div>
-              <div className="flex justify-center w-full h-5/6">
+              <div className="flex justify-center items-center w-full h-full">
                 {smsButton && (
                   <>
                     <BulkSmsIntro handleBulkSMSContent={handleBulkSMSContent} />

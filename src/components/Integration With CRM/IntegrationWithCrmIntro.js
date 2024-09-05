@@ -1,5 +1,5 @@
 import React from "react";
-import Picture from "../../assets/Integration With CRM.png";
+import Picture from "../../assets/CRM.jpg";
 
 export default function IntegrationWithCrmIntro() {
   return (
@@ -7,7 +7,7 @@ export default function IntegrationWithCrmIntro() {
       <img
         src={Picture}
         alt="Integration With CRM"
-        className="hover:cursor-pointer w-full h-full"
+        className="hover:cursor-pointer w-4/6 h-5/6"
       />
     </>
   );

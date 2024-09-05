@@ -7,7 +7,7 @@ export default function BulkSmsIntro({ handleBulkSMSContent }) {
       <img
         src={Picture}
         alt="Bulk SMS"
-        className="hover:cursor-pointer w-full h-full"
+        className="hover:cursor-pointer w-3/6 h-4/6"
         onClick={() => handleBulkSMSContent(true)}
       />
     </>
